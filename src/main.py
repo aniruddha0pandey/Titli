@@ -32,3 +32,7 @@ for imagePath in imagePaths:
 	# labels list
 	label = imagePath.split(os.path.sep)[-2]
 	labels.append(label)
+
+# scale the raw pixel intensities to the range [0, 1]
+data = np.array(data, dtype="float") / 255.0
+labels = np.array(labels)
