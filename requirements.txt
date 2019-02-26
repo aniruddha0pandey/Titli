@@ -1,0 +1,38 @@
+# packages in environment at C:\Users\asus\AppData\Local\conda\conda\envs\sih:
+#
+# Name                    Version                   Build  Channel
+absl-py                   0.7.0                     <pip>
+astor                     0.7.1                     <pip>
+certifi                   2018.8.24                py35_1  
+cycler                    0.10.0                    <pip>
+gast                      0.2.2                     <pip>
+grpcio                    1.18.0                    <pip>
+h5py                      2.9.0                     <pip>
+imutils                   0.5.2                     <pip>
+Keras                     2.2.4                     <pip>
+Keras-Applications        1.0.7                     <pip>
+Keras-Preprocessing       1.0.9                     <pip>
+kiwisolver                1.0.1                     <pip>
+Markdown                  3.0.1                     <pip>
+matplotlib                3.0.2                     <pip>
+numpy                     1.16.1                    <pip>
+opencv-contrib-python     4.0.0.21                  <pip>
+pip                       19.0.3                    <pip>
+pip                       10.0.1                   py35_0  
+protobuf                  3.6.1                     <pip>
+pyparsing                 2.3.1                     <pip>
+python                    3.5.6                he025d50_0  
+python-dateutil           2.8.0                     <pip>
+PyYAML                    3.13                      <pip>
+scikit-learn              0.20.2                    <pip>
+scipy                     1.2.1                     <pip>
+setuptools                40.2.0                   py35_0  
+six                       1.12.0                    <pip>
+tensorboard               1.12.2                    <pip>
+tensorflow                1.12.0                    <pip>
+termcolor                 1.1.0                     <pip>
+vc                        14.1                 h0510ff6_4  
+vs2015_runtime            14.15.26706          h3a45250_0  
+Werkzeug                  0.14.1                    <pip>
+wheel                     0.31.1                   py35_0  
+wincertstore              0.2              py35hfebbdb8_0  
