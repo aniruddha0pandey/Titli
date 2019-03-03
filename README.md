@@ -12,10 +12,9 @@ $ echo "export PATH=\$PATH:\$HOME/setups/miniconda/bin" >> ~/.bashrc
 $ source ~/.bashrc
 
 $ ##
-$ conda create -n sih python==3.5 keras
-$ source activate sih
+$ conda create -n sih python==3.5 keras && source activate sih
 $ ## OR
-$ conda create -n sih
+$ conda create -n sih && source activate sih
 $ pip install -r requirements.txt
 $ ##
 
