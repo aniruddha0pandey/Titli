@@ -20,12 +20,12 @@ $ conda env create --file titli.txt && source activate titli
 
 $ # or
 $ conda create -n titli && source activate titli
-$ pip install -r requirements.txt
+$ pip install keras firebase-admin scikit-learn flask
+$ # pip freeze > requirements.txt
 
 $ # or
 $ conda create -n titli && source activate titli
-$ pip install keras firebase-admin scikit-learn flask
-$ # pip freeze > requirements.txt
+$ pip install -r requirements.txt
 
 
 $ sudo apt-get install python-pip # sudo pip install --upgrade pip
