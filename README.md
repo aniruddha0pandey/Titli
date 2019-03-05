@@ -13,7 +13,7 @@ $ source ~/.bashrc
 $ conda update -n base -c defaults conda # update conda
 
 $ ## activate virtual environment
-$ conda create -n titli python==3.5 && source activate titli
+$ conda create -n titli python==3.5 keras firebase-admin scikit-learn flask && source activate titli
 $ ## OR
 $ conda env create --file titli.txt && source activate titli
 $ ## OR
