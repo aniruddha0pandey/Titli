@@ -1,8 +1,7 @@
 # titli
 
 ```bash
-$ sudo apt update --yes
-$ sudo apt upgrade --yes
+$ sudo apt update --yes && sudo apt upgrade --yes
 
 $ uname -a # get sys arch
 $ wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh
