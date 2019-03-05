@@ -1,5 +1,6 @@
 # titli
 
+## Dependencies
 ```bash
 $ sudo apt update --yes && sudo apt upgrade --yes
 
@@ -10,7 +11,10 @@ $ bash miniconda.sh -b -p miniconda && rm miniconda.sh
 $ echo "export PATH=\$PATH:\$HOME/setups/miniconda/bin" >> ~/.bashrc
 $ source ~/.bashrc
 $ conda update -n base -c defaults conda # conda update conda
+```
 
+## Setup and Installation
+```
 $ conda create -n titli python==3.5 keras tensorflow firebase-admin scikit-learn flask flask_uploads && source activate titli
 $ # conda list --explicit > titli.txt
 
@@ -28,8 +32,11 @@ $ pip install -r requirements.txt
 
 
 $ sudo apt-get install python-pip # sudo pip install --upgrade pip
+```
 
+## Build
+```
 $ python train.py -d "../dataset/flood" -m "../output/trained_model" -l "../output/bin" -p "../output/plot"
-$ python predict.py --image "../tests"
+$ python server.py
 
 ```
