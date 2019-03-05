@@ -11,6 +11,7 @@ $ bash miniconda.sh -b -p miniconda && rm miniconda.sh
 $ echo "export PATH=\$PATH:\$HOME/setups/miniconda/bin" >> ~/.bashrc
 $ source ~/.bashrc
 
+$ conda update -n base -c defaults conda # update conda
 $ ##
 $ conda create -n sih python==3.5 keras && source activate sih
 $ ## OR
