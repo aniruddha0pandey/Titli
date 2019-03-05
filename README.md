@@ -43,4 +43,4 @@ $ python server.py
 ## API Reference
 |Method|Request|Response|
 |:-:|-|-|
-|POST|<sub><b>```curl -F "photo=@<path>" http://127.0.0.1:4000/upload/<uid>```</b></sub>|<sub><b>```"<uid>":{"img_label":"","img_url":""}}```</b></sub>|
+|POST|<sub><b>```curl -F "photo=@<path>" http://127.0.0.1:4000/upload/<uid>```</b></sub>|<sub><b>```{"<uid>":{"img_label":"","img_url":""}}```</b></sub>|
