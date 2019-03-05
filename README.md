@@ -12,7 +12,7 @@ $ echo "export PATH=\$PATH:\$HOME/setups/miniconda/bin" >> ~/.bashrc
 $ source ~/.bashrc
 $ conda update -n base -c defaults conda # update conda
 
-$ conda create -n titli python==3.5 keras firebase-admin scikit-learn flask flask_uploads && source activate titli
+$ conda create -n titli python==3.5 keras tensorflow firebase-admin scikit-learn flask flask_uploads && source activate titli
 $ # conda list --explicit > titli.txt
 
 $ # or
@@ -20,7 +20,7 @@ $ conda env create --file titli.txt && source activate titli
 
 $ # or
 $ conda create -n titli && source activate titli
-$ pip install keras firebase-admin scikit-learn flask flask_uploads
+$ pip install keras tensorflow firebase-admin scikit-learn flask flask_uploads
 $ # pip freeze > requirements.txt
 
 $ # or
