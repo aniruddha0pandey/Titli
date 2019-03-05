@@ -40,3 +40,7 @@ $ python train.py -d "../dataset/flood" -m "../output/trained_model" -l "../outp
 $ python server.py
 
 ```
+## API Reference
+|Method|Request|Response|
+|:-:|:-------------:| -----:|
+|POST|```curl -F "photo=@path/to/image.extension" http://127.0.0.1:4000/upload/<uid>```|```"<uid>": {"img_label": "", "img_url": ""}}```|
