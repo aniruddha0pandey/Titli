@@ -14,7 +14,7 @@ $ conda update -n base -c defaults conda # conda update conda
 ```
 
 ## Setup and Installation
-```
+```bash
 $ conda create -n titli python==3.5 keras tensorflow firebase-admin scikit-learn flask flask_uploads && source activate titli
 $ # conda list --explicit > titli.txt
 
@@ -35,7 +35,7 @@ $ sudo apt-get install python-pip # sudo pip install --upgrade pip
 ```
 
 ## Build
-```
+```bash
 $ python train.py -d "../dataset/flood" -m "../output/trained_model" -l "../output/bin" -p "../output/plot"
 $ python server.py
 
