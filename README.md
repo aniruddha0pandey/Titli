@@ -9,7 +9,7 @@ $ sudo apt-get install bzip2
 $ bash miniconda.sh -b -p miniconda && rm miniconda.sh
 $ echo "export PATH=\$PATH:\$HOME/setups/miniconda/bin" >> ~/.bashrc
 $ source ~/.bashrc
-$ conda update -n base -c defaults conda # update conda
+$ conda update -n base -c defaults conda # conda update conda
 
 $ conda create -n titli python==3.5 keras tensorflow firebase-admin scikit-learn flask flask_uploads && source activate titli
 $ # conda list --explicit > titli.txt
