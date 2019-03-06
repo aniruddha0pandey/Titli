@@ -51,19 +51,16 @@ $ python server.py
 	<tr>
 		<td><pre>POST</pre></td>
 		<td><pre>201</pre></td>
-		<td>
-			<pre>
-				curl -F "photo=@&lt;path&gt;" http://127.0.0.1:4000/upload/&lt;uid&gt;
-			</pre>
+		<td><pre>curl -F "photo=@&lt;path&gt;" http://127.0.0.1:4000/upload/&lt;uid&gt;</pre>
 		</td>
 		<td>
 			<pre>
-				{
-					"&lt;uid&gt;": {
-						"img_label": "",
-						"img_url": ""
-					}
-				}
+{
+	"&lt;uid&gt;": {
+		"img_label": "",
+		"img_url": ""
+	}
+}
 			</pre>
 		</td>
 	</tr>
