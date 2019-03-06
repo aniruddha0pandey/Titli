@@ -41,6 +41,30 @@ $ python server.py
 
 ```
 ## API Reference
-|Method|Request|Response|
-|:-:|-|-|
-|POST|<sub><b>```curl -F "photo=@<path>" http://127.0.0.1:4000/upload/<uid>```</b></sub>|<sub><b>```{"<uid>":{"img_label":"","img_url":""}}```</b></sub>|
+<table>
+	<tr>
+		<th>Method</th>
+		<th>Status</th>
+		<th>Request</th>
+		<th>Response</th>
+	</tr>
+	<tr>
+		<td><pre>POST</pre></td>
+		<td><pre>201</pre></td>
+		<td>
+			<pre>
+				curl -F "photo=@&lt;path&gt;" http://127.0.0.1:4000/upload/&lt;uid&gt;
+			</pre>
+		</td>
+		<td>
+			<pre>
+				{
+					"&lt;uid&gt;": {
+						"img_label": "",
+						"img_url": ""
+					}
+				}
+			</pre>
+		</td>
+	</tr>
+</table>
