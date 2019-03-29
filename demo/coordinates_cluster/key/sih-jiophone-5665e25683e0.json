@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "sih-jiophone",
+  "private_key_id": "5665e25683e0460540f1ad88ff6530ee8727218c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDZYCuvTCHxAItg\nvC6giM0lXd/Mo2nvxU4ZFm7WmSfKIFPrJCXa8PnL1nmCU9Nlx5GB3iEA79gcNDse\nJsjucBoEGTd0KinE2lkaMW9yl1NDGxTBqGbDNm1DXMuCiqpbl617a6ayKK9lFPT8\nc73oMevVAi/3qwO31alXDGfMZwZdWWTfQ8tlQKBP7Un7D5JCzyLkj9wFoReyV0kG\nJu69cR0dikY7bHZG0G8GrlcDF2Jbm6vT2XmLjaJtQ1WsyeUFOU1NcN3craGmEUMG\nkj3xm5t6A1WoBPssMutRAgQ6v7bNul0zURu/DI/SXWuH+NsGKc7bmGfQM2hpvSjT\nwex+KJ7BAgMBAAECggEAHpHUQuhJg6uIble4lPH4K6+aeBxpGwOb2pJZjwtl2ZqX\nQqPIQRSPhJeKagYg3hjlQSa8bHXOZhUAVVqt+j5Aol/reQYu7pSoYDMgkbRvTKoj\nzqJApWZjkkwcAKVAlPXtO0Sl4jsvg18hntkmFV/j4wZWOZXOxY0iLfA8LrY0Ym8c\nEFzsj/0XK9HxVd78ABIdP5tykiqUPoTlFmPYwt/EYyhG8XeZ0aVPRUS4hIUUp4dm\nGmMyAxjRufdVvEZNsJT2ktra0mxPZk7ZAJsNsmjaRyvvE78+vi1IkJa/gDQbJXup\ndVelkvHyUTD3JjMhqIMdrDK8CMu1FSewTGpOJmLO4wKBgQDwXzlws4clm45/L/5r\no23ol+JjY9z5hxN087l22AqIPr3M8JWqJ/7qh34Gz0AvlbJGDdTDjGk+T7vzjIY1\ntOSPlvWG8IVgnegHgLHLcEIIToZfkRxsiaU4UjYHqcxL4LjsThx2fwhoPRMyQdfn\nZCclKDy+UohlotzTTp05Z9jIhwKBgQDngjGFWN0uZ9fvHaoshgRSNW/0qeZ+U+XU\nnp3EXzZ3PDEeSl2Z/cLXEtHhQeSGrqI7KCE53smYaP7Js2FdYIGmplFoBmNlBtIo\nv1uyMoFtug7OvUeCuJtth8fb/GoN5o2PXaQAvheXOd7RO7uLYm/RiXXLB6dgIwCu\nSkhVryNYdwKBgAfznnrT9YyQ8M3UUJ5O8bvYCm0vSIgYp9Qem+wKiY6oRK8a5liS\nqiQoB0tCX+UzFoqquncdlf2xtY4BAA+WxFjbrZOhMUhY8OwOndMVC5oqvtc6fa45\nf3W1goQOYevAq11l2BszaJvKKXBoLTRCY+kew6OoJ0r1cEitORZFES7RAoGBAL2v\n/WdnMoNNbq5rvf2RKYU6Z6sucr9bettFw7sc0IHN/ej1wc/lDnou320UEm0QNbkG\n3oKOOtv4W5tksQhThKfJarYzVcl3V0cv07AklcwUQQHAMRG4tRF/yZBEN5mAKMkp\nTrGVD7tHHXyO1tIUK86iNLPQZ6HrzCkCkFY0lF9tAoGARJebl4tilrS0Z9d70GP3\nJQSVi03UFcoLTpCLd2qprih7imMnVNfOhMYc8JtFQ0YV43VzWJD/E4sHekL6om3x\ndeAQq7v0nMjcBWXSG0gqUwIVEAK78Tdj35a7/+a7UmrRneB4cbyn0v+aZRfEQy4d\nFGg8YhVsfA5XbZvHFSVrcoE=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-5wzoa@sih-jiophone.iam.gserviceaccount.com",
+  "client_id": "101613706959034189507",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-5wzoa%40sih-jiophone.iam.gserviceaccount.com"
+}
