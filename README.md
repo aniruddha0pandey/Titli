@@ -36,6 +36,7 @@ $ sudo apt-get install python-pip # sudo pip install --upgrade pip
 
 ## Build
 ```bash
+$ python config.py
 $ python train.py -d "../dataset/flood" -m "../output/trained_model" -l "../output/bin" -p "../output/plot"
 $ python server.py
 
